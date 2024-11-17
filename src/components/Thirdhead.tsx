@@ -18,6 +18,7 @@ const Thirdhead : React.FC = () =>{
               title={card.title}
               description={card.description}
               imageUrl={card.imageUrl}
+              videoUrl={card.videoUrl}
             />
           ))}
         </div>

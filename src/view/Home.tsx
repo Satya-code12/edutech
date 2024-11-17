@@ -6,7 +6,7 @@ import Thirdhead from "../components/Thirdhead"
 
 const Home = () => {
   return (
-   <section className=" className='h-screen p-2">
+   <section className="h-screen p-2">
     <Navbar />
     <Header/>
     <div className="flex flex-col gap-y-12">
