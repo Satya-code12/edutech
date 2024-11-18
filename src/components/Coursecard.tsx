@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
 
 interface CourseCardProps {
   title: string;
   description: string;
   imageUrl: string;
   videoUrl: string; // Add videoUrl prop
+  
 }
 
-const CourseCard: React.FC<CourseCardProps> = ({ title, description, imageUrl, videoUrl }) => {
+const CourseCard: React.FC<CourseCardProps> = ({ title, description, imageUrl, videoUrl}) => {
   const [showVideo, setShowVideo] = useState(false); // State to manage video visibility
-
+  // const navigate = useNavigate();
   const handleCardClick = () => {
     setShowVideo(!showVideo); // Toggle video visibility
   };

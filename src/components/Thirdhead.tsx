@@ -2,6 +2,7 @@ import coursesData from './Courses';
 import Coursecard from './Coursecard';
 
 const Thirdhead : React.FC = () =>{
+  
  return(
   <div className='flex flex-col justify-center items-center gap-y-6'>
      <h1 className='text-2xl font-semibold' style={{ letterSpacing: "1px" }}>
